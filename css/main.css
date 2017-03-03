@@ -11,6 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-family: sans-serif;
+  font-family: 'Abhaya Libre', serif;
 }
 
 *, *::before, *::after {
@@ -22,36 +23,25 @@ body {
 }
 
 header {
-  text-align: center;
-  background-color: #e2e2e2;
+  background-color: #423ca3;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
+h1 {
+  color: #fff;
 }
 
 li {
   display: inline-block;
+  background-color: #15114c;
+  border: 2px #15114c solid;
+  border-radius: 10px;
 }
 
-a {
-  text-decoration: none;
-  color: #0074d9;
-}
-
-a:hover {
-  background-color: #0074d9;
+.icon-label {
   color: #fff;
+  border-radius: 2px;
 }
 
-@media only screen and (min-width: 60em) {
-
-  h1 {
-    text-align: left;
-  }
-
-  ul {
-    text-align: right;
-  }
+img.logo {
+  display: block;
 }
