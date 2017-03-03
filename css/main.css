@@ -37,6 +37,14 @@ li {
   border-radius: 10px;
 }
 
+li:hover {
+  background-color: white;
+}
+
+.nav a:hover {
+  color: #15114c;
+}
+
 .icon-label {
   border-radius: 2px;
 }
