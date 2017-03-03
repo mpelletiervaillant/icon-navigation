@@ -32,26 +32,23 @@ html {
 
 li {
   display: inline-block;
-  background-color: #15114c;
-  border: 2px #15114c solid;
-  border-radius: 10px;
 }
 
-li:hover {
+a:hover {
   background-color: white;
-}
-
-.nav a:hover {
   color: #15114c;
 }
 
-.icon-label {
+span {
   border-radius: 2px;
 }
 
-.nav a {
-  color: #fff;
+a{
   text-decoration: none;
+  background-color: #15114c;
+  border: 2px #15114c solid;
+  border-radius: 10px;
+  color: white;
 }
 
 @media only screen and (min-width: 60em) {
