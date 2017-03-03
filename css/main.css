@@ -10,24 +10,24 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: sans-serif;
-  font-family: 'Abhaya Libre', serif;
+  font-family: "Abhaya Libre", serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-}
-
-header {
+.masthead {
   background-color: #423ca3;
 }
 
-h1 {
+.logo {
   color: #fff;
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
 }
 
 li {
@@ -38,10 +38,21 @@ li {
 }
 
 .icon-label {
-  color: #fff;
   border-radius: 2px;
 }
 
-img.logo {
-  display: block;
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
 }
